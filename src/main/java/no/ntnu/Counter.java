@@ -29,7 +29,6 @@ public class Counter
     }
     
     /**
-     * Returns the short description
      * @return The short description of this type.
      */
     public String getName()
@@ -38,7 +37,6 @@ public class Counter
     }
 
     /**
-     * Returns the current count
      * @return The current count for this type.
      */
     public int getCount()
@@ -47,7 +45,6 @@ public class Counter
     }
 
     /**
-     * Increments the counter by one
      * Increment the current count by one.
      */
     public void increment()
@@ -56,7 +53,7 @@ public class Counter
     }
     
     /**
-     * Resets the current count to zero.
+     * Reset the current count to zero.
      */
     public void reset()
     {
