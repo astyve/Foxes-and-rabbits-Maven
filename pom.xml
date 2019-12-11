@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>no.ntnu</groupId>
     <artifactId>Foxes-and-rabbits-Maven</artifactId>
-    <version>12.27-SNAPSHOT</version>
+    <version>12.33-SNAPSHOT</version>
     <packaging>jar</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
