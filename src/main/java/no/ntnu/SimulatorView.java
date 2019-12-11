@@ -121,6 +121,7 @@ public class SimulatorView extends JFrame
 
     /**
      * Determine whether the simulation should continue to run.
+     * @param field the field to check
      * @return true If there is more than one species alive.
      */
     public boolean isViable(Field field)

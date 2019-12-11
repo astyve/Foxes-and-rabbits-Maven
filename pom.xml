@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>no.ntnu</groupId>
     <artifactId>Foxes-and-rabbits-Maven</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>12.1</version>
     <packaging>jar</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -11,4 +11,24 @@
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
     <name>Foxes-and-rabbits-Maven</name>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>external.atlassian.jgitflow</groupId>
+                <artifactId>jgitflow-maven-plugin</artifactId>
+                <version>1.0-m5.1</version>
+                <configuration>
+                    <flowInitContext>
+                         <masterBranchName>master</masterBranchName>
+                         <developBranchName>develop</developBranchName>
+                         <featureBranchPrefix>feature-</featureBranchPrefix>
+                         <releaseBranchPrefix>release-</releaseBranchPrefix>
+                         <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
+                         <versionTagPrefix>v</versionTagPrefix>              
+                    </flowInitContext>
+                    <noDeploy>true</noDeploy>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>    
 </project>
